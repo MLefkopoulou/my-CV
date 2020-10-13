@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+   background-color:#2F4F4F;
+   font-size: 14px;
+   line-height: 22px;
+   
+}
+
+.resume{
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+
+.resume .left {
+  width: 280px;
+  background:#008B8B;
+  padding: 25px;
+  color:#F5FFFA;
+}
+.resume .left .bold {
+  font-weight: 800;
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.resume .left .name {
+  font-weight: 600;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.resume .left .semi-bold {
+  color :#000000;
+  font-weight: 700;
+  font-size: 14px;
+}
+.resume .left .link{
+	color: #F5FFFA; 
+}
+
+.resume .left .personal_info{
+	padding-bottom: 20px;
+}
+.resume .left .social{
+	padding-bottom: 20px;
+}
+.resume .left .hobbie{
+	padding-bottom: 20px;
+}
+.resume_profile img {
+  width: 30%;
+  height: 30%;
+}
+.resume .right {
+  width: 520px;
+  background:#E0FFFF;
+  padding: 25px;
+  color:#2F4F4F;
+}
+.resume .right .bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px; 
+}
+
+.resume .right .semi-bold {
+  color :#696969;
+  font-weight: 800;
+  font-size: 18px;
+}
+.resume .right .about_me {
+ 	padding-bottom: 20px; 
+}
+.resume .right .education {
+ 	padding-bottom: 20px; 
+}
+.resume .right .skills {
+ 	padding-bottom: 20px; 
+}
+.resume .right .languages {
+ 	padding-bottom: 20px; 
+}
+.resume .right .experience {
+ 	padding-bottom: 20px; 
+}
